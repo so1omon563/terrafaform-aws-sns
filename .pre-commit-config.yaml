@@ -20,8 +20,6 @@ repos:
   - repo: https://github.com/antonbabenko/pre-commit-terraform
     rev: v1.72.2
     hooks:
-      - id: terraform_docs_replace
-        args: ["--dest=TF-DOCS.md"]
       - id: terraform_tfsec
         args:
           - >
