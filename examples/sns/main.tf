@@ -1,11 +1,11 @@
-# To be updated
-# module "sns_topic" {
-#   source = "git::ssh://git@github.com:so1omon563/tf_aws_sns.git?ref=<RELEASE_VERSION>"
+module "sns_topic" {
+  source  = "so1omon563/sns/aws"
+  version = "0.1.0"
 
-#   name = "example-topic"
-#   tags = {
-#     environment = "dev"
-#     terraform   = "true"
-#   }
-#   topic_prefix = "my-product-name"
-# }
+  name = "example-topic"
+  tags = {
+    environment = "dev"
+    terraform   = "true"
+  }
+  topic_prefix = "my-product-name"
+}
