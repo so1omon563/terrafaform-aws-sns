@@ -28,4 +28,3 @@ platforms:
           controls:
             - <%= test %>
 <% end %>
-
