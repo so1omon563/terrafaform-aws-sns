@@ -13,4 +13,3 @@ Note that this module includes submodules for other common SNS needs, including:
 [sns_platform_application](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_platform_application)
 
 These submodules can be found under the [modules](modules) directory.
-
