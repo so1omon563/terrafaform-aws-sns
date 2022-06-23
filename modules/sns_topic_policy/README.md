@@ -1,4 +1,4 @@
-# SNS Topic POlicy
+# SNS Topic Policy
 
 Provides an SNS topic policy resource.
 
