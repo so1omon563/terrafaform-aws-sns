@@ -8,7 +8,7 @@ The most likely use case for Terraform users will probably be SQS queues.
 
 See the [Terraform documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription) for more information on the limitations / requirements for using this resource.
 
-Examples for use can be found under the [examples](./examples) directory.
+Examples for use can be found under the [examples](https://github.com/so1omon563/terraform-aws-sns/tree/main/examples) directory.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 Auto-generated technical documentation is created using [`terraform-docs`](https://terraform-docs.io/)
