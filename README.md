@@ -14,6 +14,8 @@ Note that this module includes submodules for other common SNS needs, including:
 
 These submodules can be found under the [modules](./modules) directory.
 
+Examples for use can be found under the [examples](./examples) directory.
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 Auto-generated technical documentation is created using [`terraform-docs`](https://terraform-docs.io/)
