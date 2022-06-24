@@ -1,3 +1,4 @@
 formatter: markdown
 
-recursive.enabled: true
+output:
+  file: README.md
