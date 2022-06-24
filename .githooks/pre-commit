@@ -27,3 +27,9 @@ if [[ CONTAINER_EXISTS -ne 0 ]]; then
 else
     ${repo_root}/.githooks/pre-commit.installed
 fi
+
+# Keep module docs up to date
+for i in $(find ${repo_root} -name "README.md")
+do
+  git add $i
+done

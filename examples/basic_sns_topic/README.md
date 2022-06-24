@@ -1,5 +1,8 @@
 # SNS Topic
 Basic quickstart for creating a SNS Topic resource.
+
+Example shows using Default Tags in the provider as well as passing additional tags into the resource.
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
