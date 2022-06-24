@@ -16,8 +16,7 @@ These submodules can be found under the [modules](./modules) directory.
 
 Examples for use can be found under the [examples](./examples) directory.
 
-<!-- BEGIN_TF_DOCS -->
-
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 Auto-generated technical documentation is created using [`terraform-docs`](https://terraform-docs.io/)
 
 ## Requirements
@@ -78,7 +77,4 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_topic"></a> [topic](#output\_topic) | A map of properties for the created SNS topic. |
-<!-- END_TF_DOCS -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-README.md updated successfully
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

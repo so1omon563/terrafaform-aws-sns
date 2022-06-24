@@ -6,8 +6,7 @@ See the [Terraform documentation](https://registry.terraform.io/providers/hashic
 
 Examples for use can be found under the [examples](./examples) directory.
 
-<!-- BEGIN_TF_DOCS -->
-
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 Auto-generated technical documentation is created using [`terraform-docs`](https://terraform-docs.io/)
 
 ## Requirements
@@ -45,7 +44,4 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_policy"></a> [policy](#output\_policy) | A map of properties for the created SNS Topic Policy. |
-<!-- END_TF_DOCS -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-README.md updated successfully
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
