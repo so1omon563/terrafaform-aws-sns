@@ -25,3 +25,7 @@ repos:
           - >
             --args=--exclude-downloaded-modules
       - id: terraform_checkov
+      - id: terraform_docs
+        args:
+          - --hook-config=--add-to-existing-file=true # Boolean. true or false
+          - --args=--config=.terraform-docs.yml
