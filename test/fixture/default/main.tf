@@ -6,12 +6,19 @@ variable "topic_prefix" {}
 
 variable "topic_name_override" {}
 
+provider "aws" {
+  default_tags {
+    tags = var.tags
+  }
+}
+
 module "sns" {
   source = "../../../"
 
   name = var.name
-  tags = var.tags
-
+  tags = {
+    example = "true"
+  }
 }
 output "sns" { value = module.sns }
 
@@ -20,8 +27,9 @@ module "sns-prefix" {
 
   name         = var.name
   topic_prefix = var.topic_prefix
-  tags         = var.tags
-
+  tags = {
+    example = "true"
+  }
 }
 output "sns-prefix" { value = module.sns-prefix }
 
@@ -30,7 +38,8 @@ module "sns-override" {
 
   name                = var.name
   topic_name_override = var.topic_name_override
-  tags                = var.tags
-
+  tags = {
+    example = "true"
+  }
 }
 output "sns-override" { value = module.sns-override }
