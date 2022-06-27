@@ -27,9 +27,9 @@ Code review takes place in Github pull requests. See [this article](https://help
 
 Once you open a pull request, project maintainers will review your code and respond to your pull request with any feedback they might have. The process at this point is as follows:
 
-1. A thumbs-up (:+1:) is required from code owners to approve the pull request.
+1. An approval is required from code owners to approve the pull request.
 2. When ready, your pull request will be merged into `main`, we may require you to rebase your PR to the latest `main`.
-3. Once the PR is merged, you will be included in `CHANGELOG.md` in a subsequent release.
+3. Once the PR is merged, you will be included in the change log in a subsequent release.
 
 ### Developer Certification of Origin (DCO)
 
@@ -160,9 +160,9 @@ This module follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 The `main` branch should never have its history rewritten. Tags should never be deleted.
 
-Tags should never be manually added to a project.
-
 Tags are automatically created when a Pull Request is merged by including `#major`, `#minor`, or `#patch` in the merge commit message.
+
+Tags should never be manually added to a project.
 
 ## Branching
 
@@ -170,13 +170,11 @@ Please note that we follow a trunk based development model, with `main` as the d
 
 We do not maintain long term additional branches. By convention, origin branches are deleted upon merge to `main`.
 
-Branch names should use dashes `-` as separators.
+Branch names should begin with the user's GitHub name followed by a /, then a descriptor of the change.
 
-Branch names should begin with one of the following prefixes:
+Branch descriptors should begin with one of the following prefixes and should use dashes `-` as separators:
 
     feature-
-    chore-
     bug-
-    hotfix-
-    wip-
-    experimental-
+
+An example of a branch name would be `so1omon563/feature-add-dco-sign-off`.
