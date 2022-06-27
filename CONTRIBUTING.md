@@ -170,11 +170,11 @@ Please note that we follow a trunk based development model, with `main` as the d
 
 We do not maintain long term additional branches. By convention, origin branches are deleted upon merge to `main`.
 
-Branch names should begin with the user's GitHub name followed by a /, then a descriptor of the change.
+Branch names should begin with the user's GitHub name followed by a `-`, then a descriptor of the change.
 
 Branch descriptors should begin with one of the following prefixes and should use dashes `-` as separators:
 
     feature-
     bug-
 
-An example of a branch name would be `so1omon563/feature-add-dco-sign-off`.
+An example of a branch name would be `so1omon563-feature-add-dco-sign-off`.
