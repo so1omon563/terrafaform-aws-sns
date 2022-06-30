@@ -3,10 +3,10 @@
 include_controls 'inspec-aws'
 require './test/library/common'
 
-tfstate = get_state
-sns_id = tfstate['outputs']['sns']['value']['topic']['arn'].to_s
-sns_prefix_id = tfstate['outputs']['sns-prefix']['value']['topic']['arn'].to_s
-sns_override_id = tfstate['outputs']['sns-override']['value']['topic']['arn'].to_s
+tfstate = StateFileReader.new
+sns_id = tfstate.read['outputs']['sns']['value']['topic']['arn'].to_s
+sns_prefix_id = tfstate.read['outputs']['sns-prefix']['value']['topic']['arn'].to_s
+sns_override_id = tfstate.read['outputs']['sns-override']['value']['topic']['arn'].to_s
 
 control 'default' do
   describe aws_sns_topic(sns_id) do
