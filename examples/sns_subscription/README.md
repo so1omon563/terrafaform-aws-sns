@@ -2,6 +2,20 @@
 
 Basic quickstart for creating a SNS Subscription resource.
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+
+## Examples
+
+```hcl
+module "sns_topic_subscription" {
+  source    = "so1omon563/sns/aws//modules/sns_subscription"
+  version   = "1.1.0" # Replace with appropriate version
+  topic_arn = "<arn_of_sns_topic>"
+  protocol  = "sqs"
+  endpoint  = "<arn_sqs_queue>"
+}
+```
+
 ## Requirements
 
 No requirements.
@@ -27,4 +41,6 @@ No inputs.
 ## Outputs
 
 No outputs.
+
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

@@ -5,3 +5,5 @@ module "sns_platform_application" {
   platform            = "<platform>"
   platform_credential = "<private_key_for_platform>"
 }
+
+

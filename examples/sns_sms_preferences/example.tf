@@ -3,3 +3,5 @@ module "sns_sms_preferences" {
   version           = "1.1.0" # Replace with appropriate version
   default_sender_id = "ExampleID"
 }
+
+
