@@ -9,7 +9,13 @@ The most likely use case for Terraform users will probably be SQS queues.
 See the [Terraform documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription) for more information on the limitations / requirements for using this resource.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 Auto-generated technical documentation is created using [`terraform-docs`](https://terraform-docs.io/)
+## Examples
+
+```hcl
+# See examples under the top level examples directory for more information on how to use this module.
+```
 
 ## Requirements
 
@@ -53,4 +59,6 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_subscription"></a> [subscription](#output\_subscription) | A map of properties for the created SNS topic subscription. |
+
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

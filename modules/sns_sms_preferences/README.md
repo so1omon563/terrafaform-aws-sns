@@ -5,7 +5,13 @@ Provides a resource for setting SNS SMS preferences.
 See the [Terraform documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_sms_preferences) for more information on the limitations / requirements for using this resource.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 Auto-generated technical documentation is created using [`terraform-docs`](https://terraform-docs.io/)
+## Examples
+
+```hcl
+# See examples under the top level examples directory for more information on how to use this module.
+```
 
 ## Requirements
 
@@ -46,4 +52,6 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_sms_preferences"></a> [sms\_preferences](#output\_sms\_preferences) | A map of properties for the SNS SMS preferences. |
+
+
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
