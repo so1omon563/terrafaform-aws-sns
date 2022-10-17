@@ -14,7 +14,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_platform_application"></a> [sns\_platform\_application](#module\_sns\_platform\_application) | so1omon563/sns/aws//modules/sns_platform_application | 0.1.0 |
+| <a name="module_sns_platform_application"></a> [sns\_platform\_application](#module\_sns\_platform\_application) | so1omon563/sns/aws//modules/sns_platform_application | 1.1.0 |
 
 ## Resources
 
