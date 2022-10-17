@@ -14,7 +14,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_topic_policy"></a> [sns\_topic\_policy](#module\_sns\_topic\_policy) | so1omon563/sns/aws//modules/sns_topic_policy | 0.1.0 |
+| <a name="module_sns_topic_policy"></a> [sns\_topic\_policy](#module\_sns\_topic\_policy) | so1omon563/sns/aws//modules/sns_topic_policy | 1.1.0 |
 
 ## Resources
 

@@ -14,7 +14,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_topic_subscription"></a> [sns\_topic\_subscription](#module\_sns\_topic\_subscription) | so1omon563/sns/aws//modules/sns_subscription | 0.1.0 |
+| <a name="module_sns_topic_subscription"></a> [sns\_topic\_subscription](#module\_sns\_topic\_subscription) | so1omon563/sns/aws//modules/sns_subscription | 1.1.0 |
 
 ## Resources
 

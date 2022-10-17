@@ -14,7 +14,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_sms_preferences"></a> [sns\_sms\_preferences](#module\_sns\_sms\_preferences) | so1omon563/sns/aws//modules/sns_sms_preferences | 0.1.0 |
+| <a name="module_sns_sms_preferences"></a> [sns\_sms\_preferences](#module\_sns\_sms\_preferences) | so1omon563/sns/aws//modules/sns_sms_preferences | 1.1.0 |
 
 ## Resources
 
