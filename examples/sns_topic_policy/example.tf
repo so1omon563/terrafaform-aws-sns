@@ -4,5 +4,3 @@ module "sns_topic_policy" {
   arn     = "<arn_of_topic>"
   policy  = "<json_policy_to_attach>"
 }
-
-

@@ -5,5 +5,3 @@ module "sns_topic_subscription" {
   protocol  = "sqs"
   endpoint  = "<arn_sqs_queue>"
 }
-
-
