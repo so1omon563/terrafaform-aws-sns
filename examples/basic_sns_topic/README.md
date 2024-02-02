@@ -1,4 +1,5 @@
 # SNS Topic
+
 Basic quickstart for creating a SNS Topic resource.
 
 Example shows using Default Tags in the provider as well as passing additional tags into the resource.
@@ -20,7 +21,7 @@ provider "aws" {
 
 module "sns_topic" {
   source  = "so1omon563/sns/aws"
-  version = "1.1.0" # Replace with appropriate version
+  version = "2.0.0" # Replace with appropriate version
 
   name         = "example-topic"
   topic_prefix = "my-product-name"
@@ -43,7 +44,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_topic"></a> [sns\_topic](#module\_sns\_topic) | so1omon563/sns/aws | 1.1.0 |
+| <a name="module_sns_topic"></a> [sns\_topic](#module\_sns\_topic) | so1omon563/sns/aws | 2.0.0 |
 
 ## Resources
 

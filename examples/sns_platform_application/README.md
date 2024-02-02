@@ -9,7 +9,7 @@ Basic quickstart for creating a SNS Platform Application resource.
 ```hcl
 module "sns_platform_application" {
   source              = "so1omon563/sns/aws//modules/sns_platform_application"
-  version             = "1.1.0" # Replace with appropriate version
+  version             = "2.0.0" # Replace with appropriate version
   name                = "example-application"
   platform            = "<platform>"
   platform_credential = "<private_key_for_platform>"
@@ -28,7 +28,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_platform_application"></a> [sns\_platform\_application](#module\_sns\_platform\_application) | so1omon563/sns/aws//modules/sns_platform_application | 1.1.0 |
+| <a name="module_sns_platform_application"></a> [sns\_platform\_application](#module\_sns\_platform\_application) | so1omon563/sns/aws//modules/sns_platform_application | 2.0.0 |
 
 ## Resources
 

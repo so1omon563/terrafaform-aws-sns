@@ -9,7 +9,7 @@ provider "aws" {
 
 module "sns_topic" {
   source  = "so1omon563/sns/aws"
-  version = "1.1.0" # Replace with appropriate version
+  version = "2.0.0" # Replace with appropriate version
 
   name         = "example-topic"
   topic_prefix = "my-product-name"
