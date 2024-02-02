@@ -9,7 +9,7 @@ Basic quickstart for creating a SNS Topic Policy resource.
 ```hcl
 module "sns_topic_policy" {
   source  = "so1omon563/sns/aws//modules/sns_topic_policy"
-  version = "1.1.0" # Replace with appropriate version
+  version = "2.0.0" # Replace with appropriate version
   arn     = "<arn_of_topic>"
   policy  = "<json_policy_to_attach>"
 }
@@ -27,7 +27,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_sns_topic_policy"></a> [sns\_topic\_policy](#module\_sns\_topic\_policy) | so1omon563/sns/aws//modules/sns_topic_policy | 1.1.0 |
+| <a name="module_sns_topic_policy"></a> [sns\_topic\_policy](#module\_sns\_topic\_policy) | so1omon563/sns/aws//modules/sns_topic_policy | 2.0.0 |
 
 ## Resources
 
