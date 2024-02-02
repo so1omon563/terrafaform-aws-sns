@@ -17,3 +17,4 @@ module "sns_topic" {
     example = "true"
   }
 }
+output "sns_topic" { value = module.sns_topic }
