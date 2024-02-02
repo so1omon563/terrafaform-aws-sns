@@ -28,6 +28,7 @@ module "sns_topic" {
     example = "true"
   }
 }
+output "sns_topic" { value = module.sns_topic }
 ```
 
 ## Requirements
@@ -54,7 +55,9 @@ No inputs.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_sns_topic"></a> [sns\_topic](#output\_sns\_topic) | n/a |
 
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
